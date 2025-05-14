@@ -48,7 +48,7 @@ uint8_t count = 0;
 volatile uint8_t count_done = 0;
 uint16_t adc_data[64] = {0}; 
 
-const uint8_t double_average = 16;
+const uint8_t double_average = 128;
 
 void setup() {
   Serial.begin(115200);
